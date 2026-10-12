@@ -39,3 +39,5 @@ Informações profissionais baseadas no currículo. São Paulo, casamento e trê
 Referências de composição: https://brittanychiang.com/ e https://bruno-simon.com/. Design próprio, sem copiar conteúdo ou imagens.
 
 Angular 17 foi mantido conforme solicitado. A instalação reportou 62 vulnerabilidades nas dependências. Não foi aplicada atualização forçada que alteraria a versão do framework. A validação passou no Node 22 instalado nesta máquina, mas a versão compatível recomendada para desenvolvimento é Node 20.
+
+Descrição do repositório: Portfolio Danilo Rocha, desenvolvedor front end Angular Sênior.
