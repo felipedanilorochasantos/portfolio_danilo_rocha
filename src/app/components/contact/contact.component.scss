@@ -1,0 +1,7 @@
+:host { display: block; }
+.contact { margin-block: 25px 55px; padding: 56px !important; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; position: relative; overflow: hidden; }
+.contact::before { content: ''; position: absolute; width: 250px; height: 250px; right: -140px; top: -140px; border-radius: 50%; border: 40px solid var(--line); opacity: .5; pointer-events: none; }
+.contact h2 { font-size: clamp(40px, 4.5vw, 60px); }
+.email { font-size: clamp(16px, 2.4vw, 29px); }
+.contact-links a { padding: 8px 0; }
+@media(max-width: 680px) { .contact { padding: 28px 20px !important; margin-bottom: 35px; } .contact h2 { font-size: 38px; } .email { font-size: 17px; } }

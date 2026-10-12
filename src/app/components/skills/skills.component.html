@@ -1,0 +1,25 @@
+<section id="habilidades" class="skills-section">
+<div class="section-heading">
+<div>
+<p class="eyebrow">03 / FERRAMENTAS & CONHECIMENTO</p>
+<h2>Tecnologia com propósito.</h2>
+</div>
+<p>Uma base técnica orientada à qualidade, à entrega contínua e à experiência do usuário.</p>
+</div>
+<div class="skill-grid">@for(group of skills;track group.title){<article>
+<span class="skill-icon">{{group.icon}}</span>
+<h3>{{group.title}}</h3>
+<div class="tags">@for(item of group.items;track item){<span>{{item}}</span>}</div>
+</article>}</div>
+<div class="education">
+<div>
+<p class="eyebrow">FORMAÇÃO ACADÊMICA</p>
+<h3>Análise e Desenvolvimento de Sistemas</h3>
+<p>Sumaré</p>
+</div>
+<div>
+<p class="eyebrow">CERTIFICAÇÕES LISTADAS</p>
+<ul>@for(cert of certificates;track cert){<li>{{cert}}</li>}</ul>
+</div>
+</div>
+</section>

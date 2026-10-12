@@ -1,0 +1,10 @@
+:host { display: block; }
+.project { transition: transform .25s, box-shadow .25s; }
+.project:hover { transform: translateY(-5px); box-shadow: 0 18px 40px #0001; }
+.project-art { background: #dce7ed; }
+.art-1 { background: #e9dede; }
+.art-2 { background: #dce0ee; }
+.art-3 { background: #eee4d6; }
+.project-body { padding: 30px; }
+.project-body .eyebrow { color: var(--accent); }
+@media(prefers-reduced-motion: reduce) { .project { transition: none; } .project:hover { transform: none; } }

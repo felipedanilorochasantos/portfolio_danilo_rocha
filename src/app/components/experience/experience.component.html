@@ -1,0 +1,26 @@
+<section id="experiencia">
+<div class="section-heading">
+<div>
+<p class="eyebrow">02 / TRAJETÓRIA</p>
+<h2>Experiência que faz<br>parte de cada entrega.</h2>
+</div>
+<p>Da infraestrutura à engenharia de interfaces, com colaboração e evolução contínua.</p>
+</div>
+<div class="timeline">@for(job of jobs;track job.company + job.role){<article class="job">
+<span class="job-marker" aria-hidden="true">↗</span>
+<div>
+<h3>{{job.role}}</h3>
+<p class="company">{{job.company}}</p>
+<p>{{job.description}}</p>
+</div>
+</article>}</div>
+<details>
+<summary>Ver experiências anteriores</summary>@for(job of earlier;track job.company){<article class="job">
+<span class="job-marker" aria-hidden="true">↗</span>
+<div>
+<h3>{{job.role}}</h3>
+<p class="company">{{job.company}}</p>
+<p>{{job.description}}</p>
+</div>
+</article>}</details>
+</section>

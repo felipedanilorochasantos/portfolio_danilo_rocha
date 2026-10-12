@@ -1,0 +1,7 @@
+:host { display: block; }
+.job { grid-template-columns: 40px 1fr; gap: 25px; }
+.job-marker { height: 35px; width: 35px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); }
+.timeline { border-bottom: 1px solid var(--line); }
+.job .company { color: var(--accent); }
+details { margin-top: 22px; }
+@media(max-width: 680px) { .job { grid-template-columns: 28px 1fr; gap: 14px; } .job-marker { width: 27px; height: 27px; } }
